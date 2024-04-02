@@ -1,0 +1,582 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar {
+    width: 100%;
+    height: 50px;
+    background-color: aquamarine;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+} 
+.navbar_title {
+ width: 100px;
+ height: 20px;
+ background-color: burlywood;
+}
+
+ul {
+    width: 300px;
+    height: 20px;
+    background-color: blueviolet;
+    list-style-type: none;
+    display: flex;
+    gap: 45px;
+}
+
+.sample {
+    width: 100%;
+    height: 100vh;
+    background-color: chocolate;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sample-title {
+    width: 1300px;
+    height: 650px;
+    background-color: cornflowerblue;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    gap: 40px;
+}
+.sample-item {
+    width: 550px;
+    height: 600px;
+    background-color: darkmagenta;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ 
+}
+.sample-item2 {
+    width: 650px;
+    height: 600px;
+    background-color: rgb(91, 41, 56);
+   
+}
+
+.sample-item5 {
+    width: 400px;
+    height: 550px;
+    background-color: darkkhaki;
+    display: flex;
+    justify-content:start;
+    align-items: start;
+   flex-direction: column;
+    padding-top: 20px;
+   padding-left: 30px;
+   gap: 10px;
+
+}
+
+.sample-item51 {
+width: 100px;
+height: 20px;
+background-color: gold;
+border-radius: 16px;
+
+
+}
+
+.sample-item52{
+    width: 300px;
+    height: 150px;
+    background-color: crimson;
+}
+
+.button {
+    width: 350px;
+    height: 100px;
+    background-color:white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.sample-item53 {
+    width: 150px;
+    height: 50px;
+    background-color:skyblue;
+    border: 1px solid rgb(56, 56, 165);
+    border-radius: 30px;
+    overflow: hidden;
+    
+}
+.sample-item54 {
+    width: 150px;
+    height: 50px;
+    background-color: skyblue;
+    border: 1px solid rgb(56, 56, 165);
+    border-radius: 30px;
+    overflow: hidden;
+}
+
+
+
+.apple {
+    width: 100%;
+    height: 100vh;
+    background-color: hotpink;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+
+}
+
+.apple-title {
+    width: 1300px;
+    height: 650px;
+    display: flex;
+    background-color: aquamarine;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+     padding-top: 20px;
+      gap: 5px;
+}
+
+.apple-item {
+    width: 400px;
+    height: 150px;
+    background-color: blanchedalmond;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+   
+}
+
+.apple-item2{
+    width: 100px;
+    height: 25px;
+    background-color: blue;
+    border-radius: 30px;
+}
+
+.apple-item3 {
+    width: 200px;
+    height: 80px;
+    background-color: seagreen;
+}
+
+.apple-item4 {
+    width: 1100px;
+    height: 450px;
+    background-color: peru;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+   
+
+
+}
+
+.apple-item41 {
+    width: 300px;
+    height: 320px;
+    background-color: blueviolet;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 10px;
+    gap: 30px;
+}
+
+.apple-item42 {
+    width: 300px;
+    height: 320px;
+    background-color: blueviolet;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 10px;
+    gap: 30px;
+}
+
+.apple-item43 {
+    width: 300px;
+    height: 320px;
+    background-color: blueviolet;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 10px;
+    gap: 30px;
+}
+
+.apple-item411 {
+    width: 90px;
+    height: 90px;
+    background-color: rgb(91, 41, 56);
+   
+}
+
+.apple-item422 {
+    width: 90px;
+    height: 90px;
+    background-color: rgb(91, 41, 56);
+    display: flex;
+}
+
+.apple-item433 {
+    width: 90px;
+    height: 90px;
+    background-color: rgb(91, 41, 56);
+    display: flex;
+}
+
+.apple-item411-1 {
+    width: 170px;
+    height: 120px;
+    background-color: cornsilk;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+   
+}
+
+.apple-item422-2 {
+    width: 170px;
+    height: 120px;
+    background-color: cornsilk;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+}
+
+.apple-item433-3 {
+    width: 170px;
+    height: 120px;
+    background-color: cornsilk;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+}
+
+
+.echo{
+    width: 100%;
+    height: 100vh;
+    background-color: darkcyan;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.echo-title {
+    width: 1300px;
+    height: 650px;
+    background-color: darkred;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.echo-item {
+    width: 650px;
+    height: 600px;
+    background-color: antiquewhite;
+}
+
+.echo-item2 {
+    width: 550px;
+    height: 600px;
+    background-color: rgb(139, 161, 168);
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    flex-direction: column;
+    padding: 20px;
+    gap: 30px;
+}
+
+.echo-item21{
+    width: 100px;
+    height: 25px;
+    background-color: blue;
+    border-radius: 30px;
+}
+
+.echo-item22 {
+    width: 200px;
+    height: 250px;
+    background-color: burlywood;
+    display: flex;
+}
+
+.echo-item23 {
+    width: 130px;
+    height: 50px;
+    background-color: aqua;
+    border-radius: 30px;
+    border: 1px solid darkblue;
+}
+
+
+.content {
+    width: 100%;
+    height: 100vh;
+    background-color: chartreuse;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content-title {
+    width: 1300px;
+    height: 650px;
+    background-color: honeydew;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 10px;
+    gap: 40px;
+}
+
+.content-item {
+    width: 320px;
+    height: 180px;
+    background-color: green;
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.content-item2 {
+    width: 100px;
+    height: 25px;
+    background-color: orangered;
+    border-radius: 30px;
+}
+.content-item3{
+    width: 170px;
+    height: 100px;
+    background-color: deeppink;
+}
+
+
+.content-item21 {
+    width: 1200px;
+    height:400px ;
+    background-color: goldenrod;
+   display: flex;
+    justify-content: space-around;
+    align-items: center;
+  
+  gap: 30px;
+}
+
+.content-item211 {
+    width: 450px;
+    height: 350px;
+    background-color: orchid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 40px;
+}
+
+
+.content-item212 {
+    width: 450px;
+    height: 350px;
+    background-color: orchid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 40px;}
+
+.content-item211-1 {
+    width: 80px;
+    height: 70px;
+    background-color: chocolate;
+}
+
+.content-item211-2 {
+    width: 80px;
+    height: 70px;
+    background-color: chocolate;
+}
+
+
+
+.content-item211-3 {
+    width: 80px;
+    height: 70px;
+    background-color: chocolate;
+}
+
+.content-item212-1 {
+    width: 80px;
+    height: 70px;
+    background-color: chocolate;
+}
+
+.content-item212-2 {
+    width: 80px;
+    height: 70px;
+    background-color: chocolate;
+}
+
+.content-item212-3 {
+    width: 80px;
+    height: 70px;
+    background-color: chocolate;
+}
+
+
+
+.new {
+    width: 100%;
+    height: 100vh;
+    background-color: purple;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.new-title {
+    width: 1300px;
+    height: 650px;
+    background-color: gold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 20px;
+    gap: 40px;
+}
+
+.new-item {
+    width: 350px;
+    height: 200px;
+    background-color: cadetblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 10px;
+    gap: 40px;
+}
+
+.new-item2 {
+    width: 100px;
+height: 20px;
+background-color: blue;
+border-radius: 16px;
+}
+
+.new-item3{
+    width: 180px;
+    height: 120px;
+    background-color: brown;
+}
+
+.new-item21 {
+    width: 1250px;
+    height: 350px;
+    background-color: aqua;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+   padding-top: 20px;
+    gap: 10px;
+}
+
+.new-item211 {
+    width: 350px;
+    height: 200px;
+    background-color: rgb(87, 179, 69);
+  padding-top: 20px;
+  border: 1px solid black;
+}
+
+.new-item212 {
+    width: 350px;
+    height: 200px;
+    background-color: rgb(87, 179, 69);
+    border: 1px solid black;
+}
+
+.new-item213 {
+    width: 350px;
+    height: 200px;
+    background-color: rgb(87, 179, 69);
+    border: 1px solid black;
+}
+
+
+.finish {
+    width: 100%;
+    height: 500px;
+    background-color: rgb(221, 221, 238);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+   
+}
+
+.finish-title {
+    width: 1300px;
+    height: 300px;
+    background-color: yellow;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    margin-bottom: 100px;
+    margin-top: 50px;
+}
+
+.finish-item {
+    width: 250px;
+    height: 230px;
+    background-color: aquamarine;
+}
+
+.finish-item2 {
+    width: 220px;
+    height: 200px;
+    background-color: aquamarine;
+}
+
+.finish-item3{
+    width: 220px;
+    height: 200px;
+    background-color: aquamarine;
+}
+
+.finish-item4 {
+    width: 220px;
+    height: 200px;
+    background-color: aquamarine;
+}
+
+
+.finish-item21 {
+    width: 900px;
+    height: 100px;
+    background-color: blueviolet;
+}
